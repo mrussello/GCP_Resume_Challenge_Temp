@@ -1,0 +1,96 @@
+body {
+    background: #1B1B25;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+  }
+    
+  .separator {
+    width: 30%;
+  }
+  
+  .title {
+    margin-top: 100px;
+    margin-bottom: 10px;
+    
+    
+    a {
+      color: #DB4D57;
+      
+      &:hover {
+        text-decoration: none;
+        font-weight: bold;
+      }
+    }
+    
+    hr {
+      width: 75%;
+    }
+  }
+  
+  .summary {
+    padding: 20px;
+    
+    p {
+      font-size: 1.6rem;
+      letter-spacing: .2rem;
+    }
+  }
+  
+  
+  .work-experience {
+    padding: 20px;
+    
+    .experience-title {
+      margin-top: 50px;
+    }
+    
+    .experience-summary {
+      margin-top: 30px;
+      margin-bottom: 50px;
+    }
+    
+    p {
+      font-size: 1.6rem;
+      letter-spacing: .2rem;
+    }
+  }
+
+  .btn {
+    font-family: "Josefin Sans";
+    text-transform: uppercase;
+    font-weight: 300;
+    border-radius: 2px;
+    background-color: transparent;
+    border: 3px solid rgb(157, 26, 233);
+    padding: 6px 12px;
+    transition: all 0.5s ease;
+    cursor:pointer;
+    background: linear-gradient(to left, transparent 50%, rgba(107, 247, 193, 0.384) 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #5102ef,
+        0 0 82px #5102ef,
+        0 0 92px #5102ef,
+        0 0 102px #5102ef,
+        0 0 151px #5102ef;
+
+  }
+
+  .btn:hover,
+  button:hover {
+    outline: 0;
+    background-position: left bottom;
+    color: #fff;
+  }
+
+
+
+
+  
+
+    
